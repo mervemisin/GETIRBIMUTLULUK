@@ -49,10 +49,15 @@ router.post("/", async (request, response) => {
       }
     );
   } else {
-    if (isStartDateLessThanEndDate)
-      response.send("StartDate should be less than EndDate");
-    if (isMinCountLessThanMaxCount)
-      response.send("MinCount should be less than MaxCount");
+    var errorMessage = "";
+    if (!isStartDateLessThanEndDate)
+     errorMessage = "StartDate should be less than EndDate";
+    if (!isMinCountLessThanMaxCount)
+      if(errorMessage!="")
+         errorMessage += ", MinCount should be less than MaxCount";
+      else
+         errorMessage = " MinCount should be less than MaxCount";
+      response.send(errorMessage);
   }
 });
 
