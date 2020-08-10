@@ -9,6 +9,7 @@ Database : Mongo DB
 Written in Nodejs using Express Framework
 Tested with jest and supertest. Also route.rest and Postman is used for api testing.
 Deployed to Heroku. (https://getirbimutluluk.herokuapp.com/getirbimutluluk  )
+MongoDB Compass is also used for analyze data.
 
 All are committed to the github as git@github.com:mervemisin/GETIRBIMUTLULUK.git.
 Codes can see from https://github.com/mervemisin/GETIRBIMUTLULUK/tree/master on the github as a public.
