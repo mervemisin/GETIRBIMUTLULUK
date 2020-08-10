@@ -8,6 +8,6 @@ This Rest api is done with using Visual Studio Code. Project properties are;
 Database : Mongo DB
 Written in Nodejs using Express Framework
 Tested with jest and supertest. Also route.rest and Postman is used for api testing.
-Deployed to HEROKU.
+Deployed to Heroku. (https://getirbimutluluk.herokuapp.com/getirbimutluluk  )
 
 All are committed to the github as git@github.com:mervemisin/GETIRBIMUTLULUK.git.
