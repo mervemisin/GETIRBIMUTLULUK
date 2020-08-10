@@ -11,3 +11,4 @@ Tested with jest and supertest. Also route.rest and Postman is used for api test
 Deployed to Heroku. (https://getirbimutluluk.herokuapp.com/getirbimutluluk  )
 
 All are committed to the github as git@github.com:mervemisin/GETIRBIMUTLULUK.git.
+Codes can see from https://github.com/mervemisin/GETIRBIMUTLULUK/tree/master on the github as a public.
